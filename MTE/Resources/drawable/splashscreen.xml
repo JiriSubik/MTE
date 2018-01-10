@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/colorPrimary"/>
+  </item>
+  <item android:left="30dp"
+        android:right="30dp">
+    <bitmap
+        android:src="@drawable/icon"
+        android:tileMode="disabled"
+        android:gravity="center"
+        android:left="30dp"
+        android:right="30dp"/>
+  </item>
+</layer-list>

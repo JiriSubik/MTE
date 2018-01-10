@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base"> </style>
+
+  <!--Splash Screen-->
+  <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splashscreen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+  
+  <style name="ToolbarTitleTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="Title">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="Album">
+    <item name="android:textSize">20dp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="AlbumHeader">
+    <item name="android:textSize">12dp</item>
+    <item name="android:textColor">@color/colorPrimary</item>
+    <item name="android:layout_marginRight">@dimen/tv_margin_right</item>
+  </style>
+
+  <style name="BoldText">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="button_text" >
+    <item name="android:layout_width" >fill_parent</item>
+    <item name="android:layout_height" >wrap_content</item>
+    <item name="android:textColor" >#ffffff</item>
+    <item name="android:gravity" >center</item>
+    <item name="android:layout_margin" >16dp</item>
+    <item name="android:textSize" >16dp</item>
+    <!--<item name="android:textStyle" >bold</item>-->
+    <!--<item name="android:shadowColor" >#000000</item>-->
+    <item name="android:shadowDx" >1</item>
+    <item name="android:shadowDy" >1</item>
+    <item name="android:shadowRadius" >2</item>
+  </style>
+
+  <style name="button_rect" parent="button_text">
+    <item name="android:layout_gravity">fill_vertical</item>
+    <item name="android:layout_margin" >2dp</item>
+    <item name="android:textSize" >16dp</item>
+  </style>
+
+  <style name="button_transparent" >
+    <item name="android:background">@android:color/transparent</item>
+  </style>
+  
+  <!--ListView-->
+  <style name="lv">
+    <item name="android:textSize">14dp</item>
+  </style>
+  <style name="lvBold" parent="lv">
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="lvNormal" parent="lv">
+    <item name="android:textStyle" >normal</item>
+  </style>
+
+  <style name="lv_small">
+    <item name="android:textSize">12dp</item>
+  </style>
+  <style name="lvBoldsmall" parent="lv_small">
+    <item name="android:textStyle" >bold</item>
+  </style>
+  <style name="lvNormalsmall" parent="lv_small">
+    <item name="android:textStyle" >normal</item>
+  </style>
+  
+  <!--Separator-->
+  <style name="separator">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/sep_height</item>
+    <item name="android:layout_marginTop">@dimen/sep_margin_top</item>
+    <item name="android:layout_marginBottom">@dimen/sep_margin_bottom</item>
+    <item name="android:background">@color/separator_bg_color</item>
+  </style>
+  <style name="separator_main">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">@dimen/sep_height_big</item>
+    <item name="android:layout_marginTop">@dimen/sep_margin_top</item>
+    <item name="android:layout_marginBottom">@dimen/sep_margin_bottom</item>
+    <item name="android:background">@android:color/transparent</item>
+  </style>
+</resources>

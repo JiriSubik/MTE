@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MTE Last.fm</string>
+  
+  <!--Activity Title-->
+  <string name="Main_title">Last.fm</string>
+  <string name="Result_title">Result</string>
+  <string name="Album_title">Album</string>
+  <string name="Tracks_title">Track</string>
+
+  <!--Main-->
+  <string name="Main_btn_search">Search</string>
+  <string name="Main_artist">Artist:</string>
+  <string name="Main_album">Album:</string>
+  <string name="Main_track">Track</string>
+  <string name="Main_duration">Duration</string>
+  <string name="Main_history">History</string>
+
+  <string name="Album_error">There is no album detail!</string>
+  <!--Progress-->
+  <string name="Progress_message">Loading...</string>
+
+  <!--Alert buttons-->
+  <string name="Btn_OK">OK</string>
+  <string name="Btn_Cancel">Cancel</string>
+  <string name="Confirm_title">History deleting</string>
+  <string name="Confirm_message">Delete search history?</string>
+  <string name="Confirm_title_records">No Records</string>
+  <string name="Confirm_message_records">0 records found.</string>
+</resources>

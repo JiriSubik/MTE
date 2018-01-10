@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <color name="colorPrimary">#d32f2f</color>
+  <color name="colorPrimaryLight">#e03333</color>
+  <color name="colorPrimaryDark">#b22929</color>
+  <color name="colorAccent">#9E9E9E</color>
+  <color name="colorDisable">#4e5c14</color>
+
+  <color name="listview_bg_color">#eeeeee</color>
+  <color name="listview_track_bg_color">@android:color/transparent</color>
+  <color name="separator_bg_color">#e0e0e0</color>
+
+</resources>
+

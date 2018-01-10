@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="margin_left">16dp</dimen>
+  <dimen name="margin_right">16dp</dimen>
+  <dimen name="margin_top">16dp</dimen>
+  <dimen name="margin_botom">16dp</dimen>
+  <dimen name="margin">16dp</dimen>
+  <dimen name="padding">16dp</dimen>
+  <dimen name="padding_width">16dp</dimen>
+
+  <dimen name="btn_height">100dp</dimen>
+  <dimen name="btn_margin">16dp</dimen>
+
+  <dimen name="margin_botom_listview">40dp</dimen>
+  <dimen name="margin_botom_listview_no_btn">16dp</dimen>
+  
+  <!--Textview-->
+  <dimen name="tv_margin_left">5dp</dimen>
+  <dimen name="tv_margin_right">4dp</dimen>
+  
+  <!--ListView-->
+  <dimen name="lv_margin_botom">70dp</dimen>
+  <dimen name="lv_min_width">100dp</dimen>
+  <dimen name="lv_dividerHeight">2dp</dimen>
+  <dimen name="lv_dividerHeight_small">1dp</dimen>
+  <dimen name="lv_max_height">100dp</dimen>
+  
+  <!--Separator-->
+  <dimen name="sep_height">2dp</dimen>
+  <dimen name="sep_height_big">20dp</dimen>
+  <dimen name="sep_margin_top">2dp</dimen>
+  <dimen name="sep_margin_bottom">2dp</dimen>
+</resources>

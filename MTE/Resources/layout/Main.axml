@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <Button
+        android:id="@+id/btnSearch"
+        android:text="@string/Main_btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button"
+        style="@style/button_text" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/btnSearch">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_margin="@dimen/margin">
+            <TextView
+                android:text="@string/Main_artist"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_margin_left" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etArtist"
+                android:maxLines="1" />
+            <TextView
+                android:text="@string/Main_album"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_margin_left" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etAlbum"
+                android:maxLines="1" />
+            <TextView
+                android:text="@string/Main_track"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/tv_margin_left" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTrack"
+                android:maxLines="1" />
+        <!--Separator-->
+            <View
+                style="@style/separator_main" />
+            <LinearLayout
+                android:id="@+id/llHistory"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/Main_history"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="@dimen/tv_margin_left"
+                    android:id="@+id/tvHistory" />
+                <Button
+                    android:text="X"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/btnHistory"
+                    style="@style/button_transparent"
+                    android:gravity="right" />
+            </LinearLayout>
+            <ListView
+                android:minHeight="15px"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:divider="@color/colorPrimary"
+                android:dividerHeight="@dimen/lv_dividerHeight_small"
+                android:id="@+id/lvHistory"
+                android:layout_marginLeft="@dimen/tv_margin_left" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
